@@ -24,7 +24,7 @@ const wppconnect = require('@wppconnect-team/wppconnect');
 const { OpenAI } = require('openai');
 
 const openai = new OpenAI({
-  apiKey: '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'
+  apiKey: ''
 });
 
 wppconnect.create({
