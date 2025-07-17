@@ -1,0 +1,23 @@
+2025/07/16-17:09:05.459 e33 Reusing MANIFEST /home/vinicius/barbearia-agendamento/tokens/session-barbearia/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/16-17:09:05.460 e33 Recovering log #101
+2025/07/16-17:09:05.536 e33 Reusing old log /home/vinicius/barbearia-agendamento/tokens/session-barbearia/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000101.log 
+2025/07/16-17:09:06.577 e35 Level-0 table #107: started
+2025/07/16-17:09:06.624 e35 Level-0 table #107: 946370 bytes OK
+2025/07/16-17:09:06.630 e35 Delete type=0 #101
+2025/07/16-17:09:06.631 e35 Manual compaction at level-0 from '\x00/\x00\x00\x00' @ 72057594037927935 : 1 .. '\x000\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/16-17:09:09.470 e34 Compacting 1@1 + 1@2 files
+2025/07/16-17:09:09.564 e34 Generated table #108@1: 33841 keys, 1317290 bytes
+2025/07/16-17:09:09.564 e34 Compacted 1@1 + 1@2 files => 1317290 bytes
+2025/07/16-17:09:09.566 e34 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/16-17:09:09.567 e34 Delete type=2 #104
+2025/07/16-17:09:09.567 e34 Delete type=2 #107
+2025/07/16-17:09:16.052 e35 Level-0 table #110: started
+2025/07/16-17:09:16.075 e35 Level-0 table #110: 124345 bytes OK
+2025/07/16-17:09:16.080 e35 Delete type=0 #106
+2025/07/16-17:09:16.080 e33 Manual compaction at level-0 from '\x000\x00\x00\x00' @ 72057594037927935 : 1 .. '\x001\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/16-17:09:16.094 e34 Compacting 1@1 + 1@2 files
+2025/07/16-17:09:16.250 e34 Generated table #111@1: 35245 keys, 1367996 bytes
+2025/07/16-17:09:16.250 e34 Compacted 1@1 + 1@2 files => 1367996 bytes
+2025/07/16-17:09:16.255 e34 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/16-17:09:16.256 e34 Delete type=2 #108
+2025/07/16-17:09:16.257 e34 Delete type=2 #110
