@@ -1,9 +1,6 @@
-    // Lê horários desativados para filtrar opções
-    let horariosDesativados = {};
-    try {
-      const horariosData = fs.readFileSync('./horarios_desativados.json', 'utf8');
-      horariosDesativados = JSON.parse(horariosData);
-    } catch (e) {}
+  // Adicione ESSA LINHA logo no início do arquivo, antes de tudo
+require('dotenv').config();
+
 const fs = require('fs');
 const diasDesabilitadosPath = './dias_desabilitados.json';
 const sqlite3 = require('sqlite3').verbose();
@@ -23,9 +20,17 @@ db.run(`
 const wppconnect = require('@wppconnect-team/wppconnect');
 const { OpenAI } = require('openai');
 
+// Aqui agora você usa o token do .env:
 const openai = new OpenAI({
-  apiKey: ''
+  apiKey: process.env.OPENAI_API_KEY
 });
+
+// Lê horários desativados para filtrar opções
+let horariosDesativados = {};
+try {
+  const horariosData = fs.readFileSync('./horarios_desativados.json', 'utf8');
+  horariosDesativados = JSON.parse(horariosData);
+} catch (e) {}
 
 wppconnect.create({
   session: 'session-barbearia',
